@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: grid;
-  gap: 20px;
 `;
 
 export const Notice = styled(Box)`
@@ -65,8 +64,9 @@ export const Logo = styled.img`
 export const BoxMenuResponse = styled(Box)<{ visible: boolean }>`
   display: none;
   transition: 0.5s;
-  right: ${(props) => (props.visible ? "0" : "-1000px")};
+  opacity: ${(props) => (props.visible ? "initial" : "0")};
   width: 100%;
+  z-index: 1;
   @media only screen and (max-width: 600px) {
     display: grid;
     background-color: #cdfabb;

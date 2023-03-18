@@ -1,9 +1,14 @@
-import React from "react";
+import BannerHeader from "../Components/BannerHeader";
+import FavoriteProduct from "../Components/FavoriteProducts";
+import LayoutDefault from "../Layout/default";
 
 export default function Home() {
   return (
     <>
-      <h1>home</h1>
+      <BannerHeader />
+      <LayoutDefault>
+        <FavoriteProduct />
+      </LayoutDefault>
     </>
   );
 }

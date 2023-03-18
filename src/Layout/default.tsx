@@ -1,4 +1,5 @@
 import React from "react";
+import * as S from './styles'
 
 type Layout = {
   children: React.ReactNode;
@@ -6,8 +7,6 @@ type Layout = {
 
 export default function LayoutDefault({ children }: Layout) {
   return (
-    <>
-      <div>{children}</div>
-    </>
+      <S.Container>{children}</S.Container>
   );
 }
