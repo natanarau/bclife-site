@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
 import Button from "../Button";
 import * as S from "./styles";
 
@@ -56,6 +57,9 @@ export default function FavoriteProduct() {
             </Box>
           </S.Content>
         </S.Whapper>
+        <Box display="grid" justifyItems="center">
+          <S.HiperLink to="/products">VEJA MAIS PRODUTOS</S.HiperLink>
+        </Box>
       </Box>
     </Box>
   );

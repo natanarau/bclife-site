@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Session = styled(Box)`
@@ -47,3 +48,17 @@ export const ContentDescription = styled.p`
   letter-spacing: 1px;
   line-height: 25px;
 `;
+
+export const HiperLink = styled(Link) `
+  text-decoration: none;
+  color: #18230b;
+  transition: 0.3s;
+  background-color: #9ee384;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  &:hover {
+    opacity: 90%;
+  }
+`
