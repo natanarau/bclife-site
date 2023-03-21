@@ -35,6 +35,8 @@ export const Content = styled(Box)`
 
 export const ContentImg = styled.img`
   max-width: 400px;
+
+  width: 100%;
 `;
 
 export const ContentTitle = styled.h2`
@@ -49,7 +51,7 @@ export const ContentDescription = styled.p`
   line-height: 25px;
 `;
 
-export const HiperLink = styled(Link) `
+export const HiperLink = styled(Link)`
   text-decoration: none;
   color: #18230b;
   transition: 0.3s;
@@ -61,4 +63,4 @@ export const HiperLink = styled(Link) `
   &:hover {
     opacity: 90%;
   }
-`
+`;

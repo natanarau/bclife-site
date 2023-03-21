@@ -10,7 +10,7 @@ export default function FavoriteProduct() {
       <Box display="grid" gap="60px">
         <S.Whapper>
           <S.Content>
-            <Box data-id="product-1">
+            <Box data-id="product-1" maxWidth="480px">
               <S.ContentTitle>
                 Deo Colônia Feminina Água de Cheiro Attractive
               </S.ContentTitle>
@@ -42,7 +42,7 @@ export default function FavoriteProduct() {
                 alt="Deo Colônia Feminina Água de Cheiro Attractive"
               />
             </Box>
-            <Box>
+            <Box maxWidth="480px">
               <S.ContentTitle>
                 Creme para Afinar os Pés SPA para os Pés Sofisticatto
               </S.ContentTitle>
