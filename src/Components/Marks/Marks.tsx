@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import * as S from "./styles";
 import Slider from "react-slick";
 
@@ -55,6 +54,7 @@ export default function Marks() {
           <S.Img src="img/marks/grandha.png" alt="Grandha" />
           <S.Img src="img/marks/natulife.png" alt="Natulife" />
           <S.Img src="img/marks/sofisticatto.png" alt="Sofisticatto" />
+          <S.Img src="img/marks/habito-cosmeticos.png" alt="Habito cosmeticos" />
           <S.Img src="img/marks/via-charme.png" alt="Via Charme" />
         </Slider>
       </S.Wrapper>
