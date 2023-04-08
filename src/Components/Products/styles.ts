@@ -11,6 +11,9 @@ export const Content = styled(Box)`
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
+  @media only screen and (max-width: 875px) {
+    justify-content: space-around;
+  }
   @media only screen and (max-width: 596px) {
     justify-content: center;
   }

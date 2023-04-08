@@ -35,7 +35,6 @@ export const Content = styled(Box)`
 
 export const ContentImg = styled.img`
   max-width: 400px;
-
   width: 100%;
 `;
 

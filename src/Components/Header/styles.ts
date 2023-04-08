@@ -61,10 +61,10 @@ export const Logo = styled.img`
   width: 130px;
 `;
 
-export const BoxMenuResponse = styled(Box)<{ visible: boolean }>`
+export const BoxMenuResponse = styled(Box)<{ visible: number }>`
   display: none;
   transition: 0.5s;
-  opacity: ${(props) => (props.visible ? "initial" : "0")};
+  opacity: ${(props) => (props.visible === 1 ? "initial" : "0")};
   width: 100%;
   z-index: 1;
   @media only screen and (max-width: 600px) {

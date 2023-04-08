@@ -12,8 +12,4 @@ export const ListMenu: ListMenuType[] = [
     title: "PRODUTOS",
     path: "/produtos"
   },
-  {
-    title: "REVENDA",
-    path: "/resale"
-  }
 ];

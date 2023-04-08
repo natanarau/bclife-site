@@ -23,7 +23,9 @@ export default function FavoriteProduct() {
                 Mulheres que adoram a cidade, seu agito, suas cores e seu
                 movimento.
               </S.ContentDescription>
-              <Button variant="outlined">Ver Produto</Button>
+              <Link to="produtos/Deo_Colonia_Feminina_Agua_de_Cheiro_Attractive">
+                <Button variant="outlined">Ver Produto</Button>
+              </Link>
             </Box>
             <Box bgcolor="#F5E1AC" maxWidth="400px">
               <S.ContentImg
@@ -53,12 +55,14 @@ export default function FavoriteProduct() {
                 e retenção de água pela pele prevenindo ou reduzindo rachaduras.
                 O creme Spa para os pés com uréia deve ser usado diariamente.
               </S.ContentDescription>
-              <Button variant="outlined">Ver Produto</Button>
+              <Link to="produtos/Creme_para_Afinar_os_Pes_SPA_para_os_Pes_Sofisticatto">
+                <Button variant="outlined">Ver Produto</Button>
+              </Link>
             </Box>
           </S.Content>
         </S.Whapper>
         <Box display="grid" justifyItems="center">
-          <S.HiperLink to="/products">VEJA MAIS PRODUTOS</S.HiperLink>
+          <S.HiperLink to="/produtos">VEJA MAIS PRODUTOS</S.HiperLink>
         </Box>
       </Box>
     </Box>

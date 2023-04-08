@@ -1,6 +1,7 @@
 export type ProductsType = {
   id: number;
   name: string;
+  url: string
   description: JSX.Element;
   value: string;
   img: string;
@@ -11,12 +12,13 @@ export const productsList: ProductsType[] = [
   {
     id: 1,
     name: "Gel De Arnica 200g Natulife",
+    url: "Gel_De_Arnica_200_Natulife",
     description: (
       <>
         <p>
           Gel De Arnica 200g Natulife Elaborado com Extrato de Arnica seu uso
           oferece absorção rápida e refrescante, proporcionando através de
-          massagem, maior sensação de bem-estar e conforto. <b>Modo de usar:</b>
+          massagem, maior sensação de bem-estar e conforto. <br /><b>Modo de usar: </b>
           Aplicar sobre a pele limpa e sem lesões, massageando suavemente.
         </p>
       </>
@@ -28,6 +30,7 @@ export const productsList: ProductsType[] = [
   {
     id: 2,
     name: "Deo Colônia Feminina Água de Cheiro Attractive",
+    url: "Deo_Colonia_Feminina_Agua_de_Cheiro_Attractive",
     description: (
       <>
         <p>
@@ -40,13 +43,14 @@ export const productsList: ProductsType[] = [
         </p>
       </>
     ),
-    value: "0,00",
+    value: "139,90",
     img: "Attractive_Feminino_90ml",
     active: true,
   },
   {
     id: 3,
     name: "Creme para Afinar os Pés SPA para os Pés Sofisticatto",
+    url: "Creme_para_Afinar_os_Pes_SPA_para_os_Pes_Sofisticatto",
     description: (
       <>
         <p>

@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Box } from "@mui/material";
 import * as S from "./styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { ListMenu } from "./menu.tabs";
 
 export default function Header() {
-  const [menuVisible, setMenuVisible] = React.useState(false);
+  const [menuVisible, setMenuVisible] = React.useState<boolean>(false);
 
   return (
     <S.Wrapper>
@@ -15,10 +14,10 @@ export default function Header() {
         <p>FRETE GRÁTIS PARA GRANDE NATAL COMPRAS ACIMA DE R$100,00</p>
       </S.Notice>
       <S.MenuHeader>
-        <S.BoxMenuResponse visible={menuVisible}>
+        <S.BoxMenuResponse visible={menuVisible ? 1 : 0}>
           <ul>
-            {ListMenu.map((e) => (
-              <li>
+            {ListMenu.map((e, index) => (
+              <li key={index}>
                 <Link to={e.path}>{e.title}</Link>
               </li>
             ))}
@@ -26,8 +25,8 @@ export default function Header() {
         </S.BoxMenuResponse>
         <S.MenuDesktop>
           <ul>
-            {ListMenu.map((e) => (
-              <li>
+            {ListMenu.map((e, index) => (
+              <li key={index}>
                 <Link to={e.path}>{e.title}</Link>
               </li>
             ))}
