@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import Button from "../Button";
 import * as S from "./styles";
 
 export default function ResellerCall() {

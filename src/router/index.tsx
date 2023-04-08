@@ -9,7 +9,7 @@ import Products from "../pages/produtos";
 
 export const RouterApp = () => {
   return (
-    <Router>
+    <Router basename="/">
       <Header />
       <SocialNetwork />
       <Routes>
