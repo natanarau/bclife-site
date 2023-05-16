@@ -11,10 +11,11 @@ export default function Products() {
       <S.Content>
         {productsList.map((item) => (
           <S.Wrapper key={item.id}>
-            <S.imgProduct src={`img/products/${item.img}.png`} />
+            <S.imgProduct src={`img/products/${item.img}.jpeg`} />
             <Box height="50px">
               <S.NameProduct>{item.name}</S.NameProduct>
             </Box>
+            {/* <S.ValueProduct>R$ {item.value}</S.ValueProduct> */}
             <Link
               to={`/produtos/${item.url}`}
               style={{ color: "initial", textDecoration: "none" }}
