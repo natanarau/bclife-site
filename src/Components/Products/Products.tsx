@@ -15,7 +15,6 @@ export default function Products() {
             <Box height="50px">
               <S.NameProduct>{item.name}</S.NameProduct>
             </Box>
-            <S.ValueProduct>R$ {item.value}</S.ValueProduct>
             <Link
               to={`/produtos/${item.url}`}
               style={{ color: "initial", textDecoration: "none" }}

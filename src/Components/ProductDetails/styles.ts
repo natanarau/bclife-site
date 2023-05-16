@@ -32,13 +32,6 @@ export const Description = styled.p`
   margin: 0;
 `;
 
-export const ValueProduct = styled.h4`
-  margin: 0;
-  color: #274f15;
-  font-size: 16px;
-  font-weight: 600;
-`;
-
 export const ImgProduct = styled.img`
   max-height: 300px;
 `;

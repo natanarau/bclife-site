@@ -42,9 +42,3 @@ export const NameProduct = styled.h4`
   font-size: 14px;
   font-weight: 400;
 `;
-export const ValueProduct = styled.h4`
-  margin: 0;
-  color: #274f15;
-  font-size: 16px;
-  font-weight: 600;
-`;
