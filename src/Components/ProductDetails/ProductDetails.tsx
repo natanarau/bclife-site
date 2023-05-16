@@ -21,7 +21,6 @@ export default function ProductDetails() {
           <Box display="grid" gap="20px" alignContent="flex-start" minWidth='300px' maxWidth="500px">
             <S.Name>{product?.name}</S.Name>
             <S.Description>{product?.description}</S.Description>
-            <S.ValueProduct>R$ {product?.value}</S.ValueProduct>
             <S.HiperLink href="https://wa.me/5584986000408?text=Tenho%20interesse%20em%20comprar%20um%20produto" target="_blank">
               <Button variant="outlined">Click aqui para adquirir.</Button>
             </S.HiperLink>

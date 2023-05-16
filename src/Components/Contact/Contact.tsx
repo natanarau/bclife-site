@@ -11,11 +11,15 @@ export default function Contact() {
         <S.Wrapper>
           <S.Title>LOJAS</S.Title>
           <S.Description>
-            <b>Parnamirim:</b> <br /> Av. Brg. Everaldo Breves, 152 - Centro,
-            Parnamirim - RN, 59140-200 <br /> Fone: (84) 98600-0408
+            <b>Parnamirim Shopping:</b> <br /> Av. Brg. Everaldo Breves, 152 - Centro,
+            Parnamirim - RN, 59140-200 <br /> Fone: (84) 2132-4486
           </S.Description>
           <S.Description>
-            <b>Mossoró:</b> <br /> R. Cel. Gurgel, 168 - Centro, Mossoró - RN,
+            <b>Mossoró Liberdade Shopping:</b> <br /> R. Cel. Gurgel, 168 - Centro, Mossoró - RN,
+            59600-200 <br /> Fone: (84) 2142-2517
+          </S.Description>
+          <S.Description>
+            <b>Mossoró Park Center:</b> <br /> R. Cel. Gurgel, 168 - Centro, Mossoró - RN,
             59600-200 <br /> Fone: (84) 2142-2517
           </S.Description>
         </S.Wrapper>
