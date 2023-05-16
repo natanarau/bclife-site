@@ -7,6 +7,7 @@ export const Session = styled(Box)`
 
 export const Content = styled(Box)`
   display: flex;
+  gap: 20px;
   justify-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
